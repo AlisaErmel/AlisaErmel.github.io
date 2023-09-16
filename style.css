@@ -21,3 +21,8 @@ body{
     color:#e22bda;
     font-family:fantasy;
   }
+  p{
+    font-size:20px;
+    color:black;
+    font-family:monospace;
+  }
