@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+  }
+  img{
+    height:100pt;
+    border-style:double;
+    border-color:cadetblue;
+  }
+  h1{
+    font-size:40px;
+    color:blueviolet;
+    font-family:fantasy;
+  }
+  ul{
+    font-size:20px;
+    font-family:fantasy;
+    color:#8b6aa9;
+  }
+  h2{
+    font-size:30px;
+    color:#e22bda;
+    font-family:fantasy;
+  }
