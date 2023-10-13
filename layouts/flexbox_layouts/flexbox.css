@@ -1,0 +1,23 @@
+h1 {
+    font-family: fantasy;
+    color: forestgreen;
+}
+.box > div {
+    border: 2px solid rgb(24, 107, 13);
+    border-radius: 10px;
+    background-color: rgba(15, 80, 10, 0.5);
+    padding: 1em;
+    color: #1a181a;
+}
+.box {
+    display: flex;
+    justify-content:space-between;
+    justify-content: center;
+}
+.big {
+    flex-grow: 2;
+}
+.small {
+    flex-grow: 1;
+    align-self: center;
+}
