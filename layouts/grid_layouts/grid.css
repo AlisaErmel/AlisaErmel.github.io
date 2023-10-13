@@ -1,0 +1,57 @@
+h1{
+    font-family: fantasy;
+    color: darkmagenta;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.grid {
+    max-width: 940px;
+    margin: 0 auto;
+  } 
+
+.grid > div {
+    border: 2px solid rgb(249, 3, 216);
+    border-radius: 5px;
+    background-color: rgba(129, 35, 151, 0.5);
+    padding: 1em;
+    color: #1a181a;
+  }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .i1 {
+    font-family: fantasy;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .i2 {
+    font-family: fantasy;
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+  .i3 {
+    font-family: fantasy;
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .i4 {
+    font-family: fantasy;
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .i5 {
+    font-family: fantasy;
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .i6 {
+    font-family: fantasy;
+    grid-column: 2;
+    grid-row: 4;
+  }
