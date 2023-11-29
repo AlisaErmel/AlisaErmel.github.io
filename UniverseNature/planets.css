@@ -168,9 +168,6 @@ a:hover{
     color: rgb(144, 0, 255);
     
 }
-.home a:hover::after{
-    width:100%;
-}
 .copyright{
     width: 100%;
     text-align: center;
@@ -179,7 +176,4 @@ a:hover{
     font-weight: 300;
     margin-top: 5px;
     color: white;
-}
-.copyright i{
-    color: rgb(144, 0, 255);
 }
