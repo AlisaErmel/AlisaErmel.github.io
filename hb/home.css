@@ -1,0 +1,25 @@
+body {
+    background-color: #fffbf3;
+    text-align: center;
+    padding: 50px;
+}
+
+.cute-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #ff6b81;
+}
+
+.cake {
+    width: 280px;
+    height: 280px;
+}
+
+.butt {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-size: medium;
+}
