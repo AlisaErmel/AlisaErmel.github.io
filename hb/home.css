@@ -11,15 +11,24 @@ body {
 }
 
 .cake {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
 }
 
 .butt {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 h1 {
     font-size: medium;
+}
+
+@media (max-width: 600px) {
+    .cute-gif {
+        width: 150px;
+    }
 }
